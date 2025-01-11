@@ -15,10 +15,12 @@ font-style: normal;
 * {
   background-color: rgb(230, 230, 230) !important;
 }
+
 /* Body Style */
-body{
+body {
   background-color: #F1F1F3;
 }
+
 /* Shared CSS */
 .btn-01-primary {
   background-color: #006A50;
@@ -36,6 +38,30 @@ body{
 
 .btn-01-primary:hover {
   background-color: rgb(0, 0, 0);
+}
+
+.title {
+  color: #0E0E0E;
+  font-size: 48px;
+  line-height: 48px;
+  font-weight: bold;
+}
+
+.subtitle {
+  color: #0E0E0E;
+  opacity: 70%;
+  font-size: 16px;
+  line-height: 24px
+}
+
+.section-wbg {
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 40px 0px 40px 0px;
+  margin-top: 0px;
 }
 
 /* Heo Section CSS */
@@ -56,13 +82,12 @@ body{
   margin-right: 64px;
 }
 
-.hero-subtitle {
+.donate-hero-subtitle {
   color: #0E0E0E;
   opacity: 50%;
   font-size: 24px;
   font-weight: 500;
   padding-bottom: 0px;
-
 }
 
 .hero-title {
@@ -75,10 +100,9 @@ body{
 
 /* The Vision Of Future */
 .tviso {
-
   width: 95%;
-  /* justify-content: space-around;
-  align-items: center; */
+  justify-content: space-bet;
+  align-items: center;
   margin: 0 auto;
   max-width: 1280px;
   padding: 40px 0px 40px 0px;
@@ -90,7 +114,8 @@ body{
   display: flex;
   gap: 20px;
   margin: 32 auto;
-  max-width: max-content;
+  /* justify-content: space-around; */
+  /* max-width: max-content; */
 }
 
 .tviso-title {
@@ -116,7 +141,7 @@ body{
   /* border: 10px; */
   border-radius: 20px;
   padding: 25px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .tviso-02 {
@@ -124,7 +149,7 @@ body{
   /* border: 10px; */
   border-radius: 20px;
   padding: 25px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .tviso-03 {
@@ -132,7 +157,7 @@ body{
   /* border: 10px; */
   border-radius: 20px;
   padding: 25px;
-  align-items: center;
+  /* align-items: center; */
 }
 
 .tvsion-heading {
@@ -202,14 +227,15 @@ body{
   width: 95%;
   margin: 0 auto;
   max-width: 1280px;
-  padding: 40px 0px 40px 0px;
+  padding: 40px 0px 20px 0px;
   margin-top: 80px;
+  margin-bottom: 0px;
 
 }
 
 /* Artical CSS Started */
 
-.rn-s1-bg{
+.rn-s1-bg {
   display: flex;
   background-color: white;
   padding: 48px;
@@ -218,48 +244,49 @@ body{
   margin-bottom: 24px;
 }
 
-.rn-01-news{
+.rn-01-news {
   display: flex;
   align-items: center;
   justify-content: space-between;
   gap: 20px;
   padding-right: 48px;
 }
-.News-01{
-  text-align:left;
+
+.News-01 {
+  text-align: left;
   font-size: 32px;
   font-weight: bold;
   padding-bottom: 12px;
   margin: 0px;
 }
 
-.all-jazira{
+.all-jazira {
   display: block;
   margin: 0;
   padding-bottom: 12px;
   color: #0E0E0E;
   opacity: 70%;
-  
+
 }
 
-.pubs-time{
+.pubs-time {
   padding-bottom: 12px;
   color: #0E0E0E;
   opacity: 70%;
 }
 
-.News-body{
+.News-body {
   font-size: 16px;
   line-height: 24px;
   color: #0E0E0E;
   opacity: 70%;
 }
 
-.News-img{
+.News-img {
   border-radius: 24px;
 }
 
-.art-btn{
+.art-btn {
   background-color: #006A50;
   color: white;
   border: none;
@@ -269,17 +296,17 @@ body{
   margin-top: 22px;
 }
 
-.art-btn{
+.art-btn {
   font-size: 18px;
   font-weight: 500
 }
 
-.art-btn:hover{
+.art-btn:hover {
   background-color: rgb(0, 0, 0);
 }
 
 
-.rn-s2-bg{
+.rn-s2-bg {
   display: flex;
   background-color: white;
   padding: 48px;
@@ -287,4 +314,126 @@ body{
   align-items: center;
   margin-bottom: 24px;
   gap: 32px;
+}
+
+.donate {
+  margin-bottom: 0px !important;
+  padding-bottom: opx !important;
+  text-align: center;
+}
+
+.section-wbgg {
+  width: 80%;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 40px 0px 40px 0px;
+  margin-top: 0px;
+}
+
+.donate-box {
+  display: flex;
+  /* justify-content: space-around; */
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+}
+
+.dtitle {
+  text-align: center;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
+.dsubtitle {
+  text-align: center;
+}
+
+.the-donate-amt {
+  display: flex;
+  justify-content: center;
+}
+
+.d-amount-button {
+  background-color: white;
+  padding: 30px 70px;
+  border-radius: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: none;
+  margin-right: 24px;
+}
+
+.d-amount-button2 {
+  background-color: #C6E4D6;
+  padding: 30px 70px;
+  border-radius: 16px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+  border: none;
+  margin-right: 24px;
+}
+
+.d-amount-button {
+  font-size: 40px;
+  line-height: auto;
+  margin: 0px;
+  font-weight: bold;
+  font-style: normal;
+  color: #0E0E0E;
+  opacity: 80%;
+  border: none;
+  margin-right: 24px;
+}
+
+.d-amount-button2 {
+  font-size: 40px;
+  line-height: auto;
+  margin: 0px;
+  font-weight: bold;
+  font-style: normal;
+  color: #0E0E0E;
+  opacity: 80%;
+  border: none;
+  margin-right: 24px;
+}
+
+/* .input{
+  width: 80%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+} */
+
+.amount input {
+  align-items: center;
+  width: 60%;
+  padding: 20px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+
+.amount {
+  display: flex;
+  justify-content: center;
+}
+
+.sub-btn input {
+  align-items: center;
+  width: 10%;
+  padding: 20px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  margin-top: 20px;
+}
+
+.sub-btn {
+  display: flex;
+  justify-content: center;
 }
